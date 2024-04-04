@@ -50,7 +50,8 @@ int main()
 	// display the message 
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
-} ```
+}
+ ```
 
 reader.c
 
@@ -83,7 +84,8 @@ int main()
 	// to destroy the message queue
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
-}```
+}
+```
 
 
 
